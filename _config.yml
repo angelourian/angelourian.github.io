@@ -9,7 +9,7 @@ url: "https://angelourian.github.io"
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hacker
+theme: minima
 plugins:
   - jekyll-feed
 
