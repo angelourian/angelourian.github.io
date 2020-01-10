@@ -1,0 +1,37 @@
+@media (max-width: 767px) {
+  .main-btn {
+    font-size: 14px;
+    padding: 0 20px;
+    line-height: 40px;
+  }
+
+  .section-title .title {
+    font-size: 30px;
+    line-height: 40px;
+  } 
+
+  .fore-image, .contact-image {
+    height: auto !important;
+    border-radius: 50%;
+    border: 4px solid #d5bfa3;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .section-container .header-content {
+    padding-top: 130px;
+  }
+}
+@media (max-width: 767px) {
+  .section-container .header-content {
+    padding-top: 30px !important;
+  }
+  .section-container .header-content .header-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .section-container .header-content .text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
