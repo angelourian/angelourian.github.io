@@ -316,6 +316,13 @@ div.skills {
   .sub-skills {
     flex-direction: column;
   }
+  .sub-skills > div {
+    text-align: left;
+  }
+  .skills li{
+    list-style: circle;
+    margin-left: 15px;
+  }
 }
 .navigation-container .navbar .navbar-nav .nav-item {
   margin: 0 16px;
