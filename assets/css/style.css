@@ -313,6 +313,13 @@ div.skills {
   div.skills {
     flex-direction: column;
   }
+  .skills .item {
+    width: 100%;
+  }
+  .skills .item .img{
+    height: 150px;
+    width: 150px;
+  }
   .sub-skills {
     flex-direction: column;
   }
