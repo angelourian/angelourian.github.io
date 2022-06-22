@@ -119,9 +119,59 @@ p {
 }
 
 .skills li{
-  list-style: circle;
-  margin-left: 15px;
+  list-style: none;
+  margin-left: 0;
 }
+
+div.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills .item{
+  width: 100px;
+  margin: 20px 10px;
+  text-align: center;
+  flex: 1;
+}
+
+.skills .item img{
+  margin-bottom: 10px;
+  height: auto;
+  width: 100%;
+}
+
+.skills .item .img{
+  height: 100px;
+  width: 100px;
+  background-size: contain;
+  background-size: 80%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.skills .item pre{
+  margin: 10px 0px;
+}
+
+.sub-skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.sub-skills > div {
+  flex: 1;
+  text-align: center;
+}
+
 /*===== All Button Style =====*/
 .main-btn {
   display: inline-block;
@@ -255,6 +305,12 @@ p {
     -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
     -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+  }
+  div.skills {
+    flex-direction: column;
+  }
+  .sub-skills {
+    flex-direction: column;
   }
 }
 .navigation-container .navbar .navbar-nav .nav-item {
