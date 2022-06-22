@@ -118,6 +118,10 @@ p {
   padding: 0;
 }
 
+#skills .progress-bar {
+  background-color: #817b34;
+}
+
 .skills li{
   list-style: none;
   margin-left: 0;
